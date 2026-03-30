@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Bebas+Neue&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+    
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Professional Portfolio</h2>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm Pragyansh Gupta</h1>
+                <p class="hero-subtitle">B.Tech Computer Science Engineering Student at VIT Vellore</p>
+                <div class="hero-buttons">
+                    <a href="#artifacts" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="silver-text">I am a passionate individual dedicated to continuous learning and growth. This portfolio represents my journey through various experiences, challenges, and achievements that have shaped my professional and personal development.</p>
+                    <p class="silver-text">Currently pursuing B.Tech in Computer Science & Engineering at VIT Vellore, I have developed a strong foundation in programming, problem-solving, and innovative thinking. My academic journey has been complemented by hands-on projects and practical experiences that have honed my technical skills.</p>
+                    <p class="silver-text">I believe in the power of technology to transform lives and create meaningful impact. Through my projects and collaborations, I strive to develop solutions that address real-world challenges while maintaining high standards of quality and user experience.</p>
+                    <div class="skills">
+                        <h3 class="silver-text">Key Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Web Development</span>
+                            <span class="skill-tag">Problem Solving</span>
+                            <span class="skill-tag">Creative Thinking</span>
+                            <span class="skill-tag">Communication</span>
+                            <span class="skill-tag">Leadership</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Data Structures</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">UI/UX Design</span>
+                        </div>
+                    </div>
+                    <div class="education">
+                        <h3 class="silver-text">Education</h3>
+                        <p class="silver-text"><strong>B.Tech Computer Science & Engineering</strong> - VIT Vellore (2022-2026)</p>
+                        <p class="silver-text">Specializing in cutting-edge technologies with focus on practical application and innovation.</p>
+                    </div>
+                    <div class="interests">
+                        <h3 class="silver-text">Interests</h3>
+                        <p class="silver-text">I am passionate about exploring emerging technologies, contributing to open-source projects, and engaging in collaborative learning environments. My interests span across artificial intelligence, web development, and creating intuitive user experiences.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reflection Section -->
+    <section id="reflection" class="reflection">
+        <div class="container">
+            <h2 class="section-title">Reflection</h2>
+            <div class="reflection-grid">
+                <div class="reflection-card">
+                    <div class="reflection-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Growth Journey</h3>
+                    <p>Throughout my academic and professional journey, I have experienced tremendous growth in both technical skills and personal development. Each challenge has been an opportunity to learn and adapt, pushing me beyond my comfort zone and expanding my capabilities.</p>
+                </div>
+                <div class="reflection-card">
+                    <div class="reflection-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Goals & Aspirations</h3>
+                    <p>My primary goal is to make meaningful contributions through innovative solutions and creative problem-solving. I aspire to continuously develop my skills while helping others achieve their objectives, creating a positive impact in my field and community.</p>
+                </div>
+                <div class="reflection-card">
+                    <div class="reflection-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Strategies & Approach</h3>
+                    <p>I believe in a strategic approach to learning and development, combining theoretical knowledge with practical application. My strategy involves setting clear objectives, seeking feedback, and maintaining a growth mindset that embraces challenges as learning opportunities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Artifacts Section -->
+    <section id="artifacts" class="artifacts">
+        <div class="container">
+            <h2 class="section-title">Artifacts</h2>
+            <div class="artifact-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="projects">Projects</button>
+                <button class="filter-btn" data-filter="achievements">Achievements</button>
+                <button class="filter-btn" data-filter="skills">Skills</button>
+            </div>
+            <div class="artifacts-grid">
+                <div class="artifact-item" data-category="projects">
+                    <div class="artifact-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="artifact-content">
+                        <h3>Web Development Project</h3>
+                        <p>A full-stack web application demonstrating proficiency in modern technologies and best practices.</p>
+                        <div class="artifact-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="artifact-item" data-category="projects">
+                    <div class="artifact-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="artifact-content">
+                        <h3>Mobile Application</h3>
+                        <p>A user-friendly mobile application designed to solve real-world problems with intuitive interface.</p>
+                        <div class="artifact-tags">
+                            <span class="tag">UI/UX Design</span>
+                            <span class="tag">Mobile Development</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="artifact-item" data-category="achievements">
+                    <div class="artifact-image">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="artifact-content">
+                        <h3>Competition Winner</h3>
+                        <p>First place in regional coding competition, demonstrating problem-solving skills under pressure.</p>
+                        <div class="artifact-tags">
+                            <span class="tag">Leadership</span>
+                            <span class="tag">Teamwork</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="artifact-item" data-category="achievements">
+                    <div class="artifact-image">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="artifact-content">
+                        <h3>Professional Certification</h3>
+                        <p>Industry-recognized certification validating expertise in specialized technologies and methodologies.</p>
+                        <div class="artifact-tags">
+                            <span class="tag">Professional Development</span>
+                            <span class="tag">Expertise</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="artifact-item" data-category="skills">
+                    <div class="artifact-image">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="artifact-content">
+                        <h3>Creative Design Portfolio</h3>
+                        <p>Collection of creative designs showcasing artistic abilities and design thinking principles.</p>
+                        <div class="artifact-tags">
+                            <span class="tag">Design</span>
+                            <span class="tag">Creativity</span>
+                            <span class="tag">Visual Communication</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="artifact-item" data-category="skills">
+                    <div class="artifact-image">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="artifact-content">
+                        <h3>Leadership Experience</h3>
+                        <p>Demonstrated leadership through team management and successful project coordination.</p>
+                        <div class="artifact-tags">
+                            <span class="tag">Management</span>
+                            <span class="tag">Communication</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="silver-text">Let's Connect</h3>
+                    <p class="silver-text">I'm always interested in discussing new opportunities, collaborations, or just having a conversation about shared interests.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span class="silver-text">pragyansh3128@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span class="silver-text">+91 7068120523</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span class="silver-text">VIT Vellore, Tamil Nadu</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
