@@ -179,8 +179,8 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0;
-    visibility: hidden;
+    opacity: 1;
+    visibility: visible;
     transition: all 0.3s ease;
     z-index: 1000;
     box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
@@ -533,17 +533,11 @@ section.visible {
 }
 
 .hamburger {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
+    display: none !important;
 }
 
-.hamburger span {
-    width: 25px;
-    height: 3px;
-    background: var(--text-dark);
-    margin: 3px 0;
-    transition: var(--transition);
+.nav-menu {
+    display: none !important;
 }
 
 /* Hero Section */
@@ -1099,7 +1093,7 @@ section {
 
 .artifact-content p {
     color: #C0C0C0; /* Silver */
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     line-height: 1.6;
     position: relative;
     z-index: 4;
